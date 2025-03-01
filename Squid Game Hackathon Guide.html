@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=375px, initial-scale=1.0">
+<title>Hackathon Guide</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#FF0080',
+secondary: '#006666'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body { background-color: #1A1A1A; color: #E0E0E0; }
+.hero-mask {
+background-image: url('https://public.readdy.ai/ai/img_res/a78bde9ff161d375bedcba06b07c866d.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.hero-mask::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(180deg, rgba(26,26,26,0.3) 0%, rgba(26,26,26,0.8) 100%);
+}
+.platform-card {
+background-image: url('https://public.readdy.ai/ai/img_res/f94a8bfcbc8b1eb66e5beaf45efb6610.jpg');
+background-size: cover;
+}
+</style>
+</head>
+<body class="w-[375px] min-h-[762px] mx-auto relative">
+<main>
+<section class="hero-mask h-[200px] flex items-center justify-center mb-8">
+<div class="text-center p-4 relative z-10">
+<h2 class="text-2xl font-['Pacifico'] text-white mb-4">Welcome to HACKHERS</h2>
+<a href="https://hackhers-25.github.io/HackHers/" target="_blank" class="bg-primary text-white px-6 py-2 !rounded-button inline-block">Join Now</a>
+</div>
+</section>
+<section class="px-4 mb-8">
+<h3 class="text-xl font-semibold mb-4 text-primary">What is Hackathon?</h3>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30">
+<p class="mb-4">A hackathon is a competitive event where participants develop unique solutions within a given theme and timeframe. These events offer valuable opportunities for both job recruitment and learning from fellow competitors.</p>
+<div class="grid grid-cols-3 gap-4 mb-4">
+<div class="text-center">
+<div class="w-12 h-12 mx-auto mb-2 flex items-center justify-center">
+<i class="ri-team-line text-2xl text-primary"></i>
+</div>
+<p class="text-sm">Team Events</p>
+</div>
+<div class="text-center">
+<div class="w-12 h-12 mx-auto mb-2 flex items-center justify-center">
+<i class="ri-code-box-line text-2xl text-primary"></i>
+</div>
+<p class="text-sm">Rapid Prototyping</p>
+</div>
+<div class="text-center">
+<div class="w-12 h-12 mx-auto mb-2 flex items-center justify-center">
+<i class="ri-trophy-line text-2xl text-primary"></i>
+</div>
+<p class="text-sm">Competitions</p>
+</div>
+</div>
+<div class="space-y-2 text-sm">
+<p class="flex items-center"><i class="ri-medal-line text-primary mr-2"></i>Get certification for your resume</p>
+<p class="flex items-center"><i class="ri-group-line text-primary mr-2"></i>Network with industry professionals</p>
+<p class="flex items-center"><i class="ri-gift-line text-primary mr-2"></i>Win exciting prizes and rewards</p>
+</div>
+</div>
+</section>
+<section class="px-4 mb-8">
+<h3 class="text-xl font-semibold mb-4 text-primary">How to Succeed</h3>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30 mb-4">
+<h4 class="font-medium mb-3 text-primary">Essential Skills</h4>
+<div class="space-y-2 text-sm mb-4">
+<p class="flex items-center"><i class="ri-message-3-line text-primary mr-2"></i>Communication Skills</p>
+<p class="flex items-center"><i class="ri-team-line text-primary mr-2"></i>Team Collaboration</p>
+<p class="flex items-center"><i class="ri-time-line text-primary mr-2"></i>Time Management</p>
+<p class="flex items-center"><i class="ri-group-line text-primary mr-2"></i>Networking Ability</p>
+</div>
+<p class="text-xs text-white/60 mt-4 italic">"Success in hackathons isn't just about winning - it's about challenging yourself and growing in this competitive world!"</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30">
+<div class="w-10 h-10 mb-2 flex items-center justify-center">
+<i class="ri-lightbulb-line text-xl text-primary"></i>
+</div>
+<h4 class="font-medium mb-2">Unique Ideas</h4>
+<p class="text-sm">Research and innovate within themes</p>
+</div>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30">
+<div class="w-10 h-10 mb-2 flex items-center justify-center">
+<i class="ri-presentation-line text-xl text-primary"></i>
+</div>
+<h4 class="font-medium mb-2">Pitch Well</h4>
+<p class="text-sm">Prepare for judge questions</p>
+</div>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30">
+<div class="w-10 h-10 mb-2 flex items-center justify-center">
+<i class="ri-group-line text-xl text-primary"></i>
+</div>
+<h4 class="font-medium mb-2">Network</h4>
+<p class="text-sm">Connect with peers and mentors</p>
+</div>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30">
+<div class="w-10 h-10 mb-2 flex items-center justify-center">
+<i class="ri-brain-line text-xl text-primary"></i>
+</div>
+<h4 class="font-medium mb-2">Learn</h4>
+<p class="text-sm">Gain new skills and knowledge</p>
+</div>
+</div>
+<div class="bg-[#2A2A2A] p-4 rounded-lg border border-primary/30 mt-4">
+<h4 class="font-medium mb-3 text-primary">Don't Worry About:</h4>
+<div class="space-y-2 text-sm">
+<p class="flex items-center"><i class="ri-code-line text-primary mr-2"></i>Prior coding experience</p>
+<p class="flex items-center"><i class="ri-team-line text-primary mr-2"></i>Working alone - help is available</p>
+<p class="flex items-center"><i class="ri-shield-check-line text-primary mr-2"></i>Perfect solutions - focus on learning</p>
+</div>
+</div>
+</section>
+<section class="px-4 mb-8">
+<h3 class="text-xl font-semibold mb-4 text-primary">Popular Platforms</h3>
+<div class="space-y-4">
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">Devfolio</h4>
+<p class="text-sm">Premier hackathon platform in India</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">DevPost</h4>
+<p class="text-sm">Global hackathon community</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">MLH</h4>
+<p class="text-sm">Major League Hacking events</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">HackerEarth</h4>
+<p class="text-sm">Developer-focused challenges</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">Unstop</h4>
+<p class="text-sm">Student internship opportunities</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">Skillenza</h4>
+<p class="text-sm">Skill-based competitions</p>
+</div>
+<div class="platform-card p-4 rounded-lg">
+<h4 class="font-medium text-white mb-2">AngelHack</h4>
+<p class="text-sm">Global hackathon series</p>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>
